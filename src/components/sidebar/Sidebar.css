@@ -30,7 +30,7 @@
     cursor: pointer; 
 }
 
-.sidebar .recent-title{
+.sidebar .recent{
     display: flex;
     flex-direction: column;
 }
@@ -41,7 +41,7 @@
 }
 
 .sidebar .recent-entry{
-    display:flex;
+    display: flex;
     align-items: start;
     gap: 10px;
     padding: 10px;
@@ -61,5 +61,6 @@
 }
 
 .sidebar .bottom-item{
-
+    padding-right: 10PX;
+    cursor: pointer;
 }
